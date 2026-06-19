@@ -6,21 +6,45 @@
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
 </head>
-<body>
-    <form action="back.php" method="post">
+<body id="bodReg">
+    <br>
+    <div class="contenedor">
+        <p>Formulario de registro: </p>
+            <form action="back.php" method="post" name="registro">
 
-        <label for="correo">Correo Electronico:</label>
-        <br>
-        <input type="email" name="correo" id="correo" required minlength="24">
-        <br>
-        <br>
-        <label for="contra">Contraseña:</label>
-        <br>
-        <input type="password" name="contra" id="contra" required minlength="8">
-        <br>
-        <br>
-        <input value="Registrarse" name="subir" type="submit">
+            <br>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required/>
+            <br>
+            <br>
 
-    </form>
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" required/>
+            <br><br>
+
+            <label for="curso">Curso:</label><br>
+            <select name="curso" id="curso">
+                <option value="4">4° Mecánica</option>
+                <option value="5">5° Mecánica</option>
+                <option value="6">6° Mecánica</option>
+                <option value="7">7° Mecánica</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="correo">Correo Electronico:</label>
+            <br>
+            <input type="email" name="correo" id="correo" required minlength="24">
+            <br>
+            <br>
+            <label for="contra">Contraseña:</label>
+            <br>
+            <input type="password" name="contra" id="contra" required minlength="8">
+            <br>
+            <br>
+            <button value="Registrarse" name="subir" type="submit">Registrarse</button>
+
+        </form>
+    </div>
 </body>
 </html>
