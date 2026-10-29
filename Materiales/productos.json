@@ -1,0 +1,776 @@
+[
+    {
+        "nombre": "Hierro cuadrado",
+        "categoria": "Hierro cuadrado",
+        "precio": 11211.75,
+        "tipo": "Acero",
+        "sku": "901811acero",
+        "descripcion": "Conformado:\nCuadrado\nLado 1:\n9.52 mm\nLargo:\n6 m\nPeso Total:\n4.3 kg/barra",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-hierrocuadrado-1.jpg"
+    },
+    {
+        "nombre": "Hierro cuadrado",
+        "categoria": "Hierro cuadrado",
+        "precio": 19126.35,
+        "tipo": "Acero",
+        "sku": "901812acero",
+        "descripcion": "Conformado:\nCuadrado\nLado 1:\n12.7 mm\nLargo:\n6 m\nPeso Total:\n7.4 kg/barra",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-hierrocuadrado-1.jpg"
+    },
+    {
+        "nombre": "Hierro cuadrado",
+        "categoria": "Hierro cuadrado",
+        "precio": 25059.25,
+        "tipo": "Acero",
+        "sku": "901816acero",
+        "descripcion": "Conformado:\nCuadrado\nLado 1:\n14.29 mm\nLargo:\n6 m\nPeso Total:\n9.76 kg/barra",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-hierrocuadrado-1.jpg"
+    },
+    {
+        "nombre": "Hierro cuadrado",
+        "categoria": "Hierro cuadrado",
+        "precio": 31733.57,
+        "tipo": "Acero",
+        "sku": "901813acero",
+        "descripcion": "Conformado:\nCuadrado\nLado 1:\n15.88 mm\nLargo:\n6 m\nPeso Total:\n12.3 kg/barra",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-hierrocuadrado-1.jpg"
+    },
+    {
+        "nombre": "Hierro cuadrado torsionado",
+        "categoria": "Hierro cuadrado",
+        "precio": 30510.06,
+        "tipo": "Acero",
+        "sku": "901935acero",
+        "descripcion": "Conformado:\nTorsionado\nLado 1:\n14,29 mm\nLargo:\n6 m\nPeso Total:\n9,76 kg/barra",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-hierrocuadradotensionado2-1.jpg"
+    },
+    {
+        "nombre": "Hierro cuadrado torsionado",
+        "categoria": "Hierro cuadrado",
+        "precio": 23285.22,
+        "tipo": "Acero",
+        "sku": "901937acero",
+        "descripcion": "Conformado:\nTorsionado\nLado 1:\n12.70 mm\nLargo:\n6 m\nPeso Total:\n7.4 kg/barra",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-hierrocuadradotensionado2-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, laminado",
+        "categoria": "Hierro herrero redondo",
+        "precio": 4026.9,
+        "tipo": "Acero",
+        "sku": "900112acero",
+        "descripcion": "Diametro:\n6.35 mm\nLargo:\n6 m\nPeso Total:\n1.55 kg/barra\nPeso Nominal:\n0.26 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, laminado",
+        "categoria": "Hierro herrero redondo",
+        "precio": 8052.74,
+        "tipo": "Acero",
+        "sku": "900113acero",
+        "descripcion": "Diametro:\n7.94 mm\nLargo:\n6 m\nPeso Total:\n2.4 kg/barra\nPeso Nominal:\n0.4 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, laminado",
+        "categoria": "Hierro herrero redondo",
+        "precio": 8716.1,
+        "tipo": "Acero",
+        "sku": "900114acero",
+        "descripcion": "Diametro:\n9.52 mm\nLargo:\n6 m\nPeso Total:\n3.46 kg/barra\nPeso Nominal:\n0.58 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, laminado",
+        "categoria": "Hierro herrero redondo",
+        "precio": 15293.78,
+        "tipo": "Acero",
+        "sku": "900124acero",
+        "descripcion": "Diametro:\n12.7 mm\nLargo:\n6 m\nPeso Total:\n6.15 kg/barra\nPeso Nominal:\n1.03 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, laminado",
+        "categoria": "Hierro herrero redondo",
+        "precio": 19677.26,
+        "tipo": "Acero",
+        "sku": "900125acero",
+        "descripcion": "Diametro:\n14.29 mm\nLargo:\n6 m\nPeso Total:\n7.98 kg/barra\nPeso Nominal:\n1.33 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, laminado",
+        "categoria": "Hierro herrero redondo",
+        "precio": 25462.15,
+        "tipo": "Acero",
+        "sku": "900126acero",
+        "descripcion": "Diametro:\n15.88 mm\nLargo:\n6 m\nPeso Total:\n9.59 kg/barra\nPeso Nominal:\n1.6 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, laminado",
+        "categoria": "Hierro herrero redondo",
+        "precio": 34643,
+        "tipo": "Acero",
+        "sku": "900133acero",
+        "descripcion": "Diametro:\n19.05 mm\nLargo:\n6 m\nPeso Total:\n13.65 kg/barra\nPeso Nominal:\n2.28 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, laminado",
+        "categoria": "Hierro herrero redondo",
+        "precio": 46557.36,
+        "tipo": "Acero",
+        "sku": "900123acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 6148.76,
+        "tipo": "Acero",
+        "sku": "900116acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 10605.24,
+        "tipo": "Acero",
+        "sku": "900117acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 16869.93,
+        "tipo": "Acero",
+        "sku": "900118acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 23470.16,
+        "tipo": "Acero",
+        "sku": "900119acero",
+        "descripcion": "Grado:\nAL 220\nDiametro:\n12 mm\nLargo:\n12 m\nPeso Total:\n10.66 kg/barra\nPeso Nominal:\n0.89 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 31849.22,
+        "tipo": "Acero",
+        "sku": "900120acero",
+        "descripcion": "Grado:\nAL 220\nDiametro:\n14 mm\nLargo:\n12 m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 41813.22,
+        "tipo": "Acero",
+        "sku": "900121acero",
+        "descripcion": "Grado:\nAL 220\nDiametro:\n16 mm\nLargo:\n12 m\nPeso Total:\n18.96 kg/barra\nPeso Nominal:\n1.58 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 65047.63,
+        "tipo": "Acero",
+        "sku": "900122acero",
+        "descripcion": "Grado:\nAL 220\nDiametro:\n20 mm\nLargo:\n12 m\nPeso Total:\n29.64 kg/barra\nPeso Nominal:\n2.47 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 3119.93,
+        "tipo": "Acero",
+        "sku": "900127acero",
+        "descripcion": "Grado:\nAL 220\nDiametro:\n6 mm\nLargo:\n6 m\nPeso Total:\n1.33 kg/barra\nPeso Nominal:\n0.22 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 5302.62,
+        "tipo": "Acero",
+        "sku": "900128acero",
+        "descripcion": "Grado:\nAL 220\nDiametro:\n8 mm\nLargo:\n6 m\nPeso Total:\n2.37 kg/barra\nPeso Nominal:\n0.4 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 8434.97,
+        "tipo": "Acero",
+        "sku": "900129acero",
+        "descripcion": "Grado:\nAL 220\nDiametro:\n10 mm\nLargo:\n6 m\nPeso Total:\n3.7 kg/barra\nPeso Nominal:\n0.62 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 20906.61,
+        "tipo": "Acero",
+        "sku": "900139acero",
+        "descripcion": "Grado:\nAL 220\nDiametro:\n16 mm\nLargo:\n6 m\nPeso Total:\n9.48 kg/barra\nPeso Nominal:\n1.58 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 15953.55,
+        "tipo": "Acero",
+        "sku": "900137acero",
+        "descripcion": "Diametro:\n12 mm\nLargo:\n6 m\nPeso Total:\n5.4 kg/barra\nPeso Nominal:\n0.9 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Hierro herrero redondo, liso",
+        "categoria": "Hierro construcción",
+        "precio": 20967.05,
+        "tipo": "Acero",
+        "sku": "900138acero",
+        "descripcion": "Diametro:\n14 mm\nLargo:\n6 m\nPeso Total:\n7.26 kg/barra\nPeso Nominal:\n1.21 kg/m",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/08/hierro-redondo_Mesa-de-trabajo-1_Mesa-de-trabajo-1.jpg"
+    },
+    {
+        "nombre": "Pasamano de metal",
+        "categoria": "Pasamano",
+        "precio": 24988.35,
+        "tipo": "Acero",
+        "sku": "900990acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-pasamano-1.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal",
+        "categoria": "Artículos de ferretería",
+        "precio": 705.16,
+        "tipo": "Acero",
+        "sku": "11681acero",
+        "descripcion": "Lado 1:\n30 mm\nLado 2:\n30 mm",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-tapacanio2-1.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal",
+        "categoria": "Artículos de ferretería",
+        "precio": 975.97,
+        "tipo": "Acero",
+        "sku": "11682acero",
+        "descripcion": "Lado 1:\n40 mm\nLado 2:\n40 mm",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-tapacanio2-1.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal",
+        "categoria": "Artículos de ferretería",
+        "precio": 1050.65,
+        "tipo": "Acero",
+        "sku": "11684acero",
+        "descripcion": "Lado 1:\n50 mm\nLado 2:\n50 mm",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-tapacanio2-1.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal",
+        "categoria": "Artículos de ferretería",
+        "precio": 1299.51,
+        "tipo": "Acero",
+        "sku": "11686acero",
+        "descripcion": "Lado 1:\n60 mm\nLado 2:\n60 mm",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-tapacanio2-1.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal",
+        "categoria": "Artículos de ferretería",
+        "precio": 1289.19,
+        "tipo": "Acero",
+        "sku": "11688acero",
+        "descripcion": "Lado 1:\n70 mm\nLado 2:\n70 mm",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-tapacanio2-1.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal",
+        "categoria": "Artículos de ferretería",
+        "precio": 1566.78,
+        "tipo": "Acero",
+        "sku": "11690acero",
+        "descripcion": "Lado 1:\n80 mm\nLado 2:\n80 mm",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-tapacanio2-1.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal",
+        "categoria": "Artículos de ferretería",
+        "precio": 1912,
+        "tipo": "Acero",
+        "sku": "11694acero",
+        "descripcion": "Lado 1:\n100 mm\nLado 2:\n100 mm",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2022/07/acerco-tapacanio2-1.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal redondo",
+        "categoria": "Artículos de ferretería",
+        "precio": 696.02,
+        "tipo": "Acero",
+        "sku": "11670acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2024/01/Tapacano-Redondo.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal redondo",
+        "categoria": "Artículos de ferretería",
+        "precio": 847.02,
+        "tipo": "Acero",
+        "sku": "11671acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2024/01/Tapacano-Redondo.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal redondo",
+        "categoria": "Artículos de ferretería",
+        "precio": 982,
+        "tipo": "Acero",
+        "sku": "11672acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2024/01/Tapacano-Redondo.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal redondo",
+        "categoria": "Artículos de ferretería",
+        "precio": 1212.3,
+        "tipo": "Acero",
+        "sku": "11673acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2024/01/Tapacano-Redondo.jpg"
+    },
+    {
+        "nombre": "Tapa caño de metal redondo",
+        "categoria": "Artículos de ferretería",
+        "precio": 1784.87,
+        "tipo": "Acero",
+        "sku": "11674acero",
+        "descripcion": "",
+        "imagen": "https://acerco.com.ar/wp-content/uploads/2024/01/Tapacano-Redondo.jpg"
+    },
+    {
+        "sku": "VARIAS-TABPI1810-madera",
+        "nombre": "Tabla de pino p/construcción 1'' x 8'' x 3.05m",
+        "precio": 6794.15,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/30223/s/tabla-de-pino-p-construccion-1-x-8-x-3-05m/category/1029/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/v/a/varias-tabpi1810.png?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "VARIAS-TABPI1810-madera",
+        "nombre": "Tabla de pino p/construcción 3'' x 3'' x 3.05m",
+        "precio": 6794.15,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/30224/s/tabla-de-pino-p-construccion-3-x-3-x-3-05m/category/1029/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/v/a/varias-tabpi3310.png?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "MOCONA-POSQUE442400PD-madera",
+        "nombre": "Poste Quebracho colorado punta diamante 4\" x 4\" x 2.40m",
+        "precio": 23287.73,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/30695/s/poste-quebracho-colorado-punta-diamante-4-x-4-x-2-40m/category/1042/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/m/o/mocona-posque442400pd.jpg?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "RESOL-TEMP-BAR-1B-madera",
+        "nombre": "Barniz sintetico CristaSol poliester transparente brillante lata x 1l",
+        "precio": 84808.42,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/33393/s/barniz-sintetico-cristasol-poliester-transparente-brillante-lata-x-1l/category/1056/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/r/e/resol-temp-bar-1b.jpg?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "RESOL-TEMP-BAR-1B-madera",
+        "nombre": "Barniz sintetico CristaSol poliester transparente brillante lata x 4l",
+        "precio": 84808.42,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/33394/s/barniz-sintetico-cristasol-poliester-transparente-brillante-lata-x-4l/category/1056/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/r/e/resol-temp-bar-4b.jpg?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "RESOL-TEMP-BAR-1B-madera",
+        "nombre": "Barniz sintetico CristaSol poliester transparente mate lata x 1l",
+        "precio": 84808.42,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/33395/s/barniz-sintetico-cristasol-poliester-transparente-mate-lata-x-1l/category/1056/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/r/e/resol-temp-bar-1m.jpg?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "RESOL-TEMP-BAR-1B-madera",
+        "nombre": "Barniz sintetico CristaSol poliester transparente mate lata x 4l",
+        "precio": 84808.42,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/33396/s/barniz-sintetico-cristasol-poliester-transparente-mate-lata-x-4l/category/1056/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/r/e/resol-temp-bar-4m.jpg?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "RESOL-TEMP-BAR-1B-madera",
+        "nombre": "Barniz sintetico CristaSol poliester transparente satinado lata x 1l",
+        "precio": 84808.42,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/33397/s/barniz-sintetico-cristasol-poliester-transparente-satinado-lata-x-1l/category/1056/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/r/e/resol-temp-bar-1s.jpg?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "RESOL-TEMP-BAR-1B-madera",
+        "nombre": "Barniz sintetico CristaSol poliester transparente satinado lata x 4l",
+        "precio": 84808.42,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/33398/s/barniz-sintetico-cristasol-poliester-transparente-satinado-lata-x-4l/category/1056/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/r/e/resol-temp-bar-4s.jpg?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "RESOL-TEMP-BAR-1B-madera",
+        "nombre": "Barniz sintetico Marino filtro solar transparente brillante lata x 1l",
+        "precio": 84808.42,
+        "tipo": "Madera",
+        "url": "https://www.mocona.com.ar/catalog/product/view/id/33399/s/barniz-sintetico-marino-filtro-solar-transparente-brillante-lata-x-1l/category/1056/",
+        "imagen": "https://media.xcons.com.ar/media/catalog/product/r/e/resol-temp-bar-1mar.jpg?width=280&height=280&store=mocona&image-type=small_image",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170743aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 22,2 MM X 1000 MM",
+        "precio": 23130.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-222-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio251-284e149953b33a57a816855562883139-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170724aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 15,88 MM X 1000 MM",
+        "precio": 11862.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-1588-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio291-284e149953b33a57a816855562950175-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "260497205aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 9,52 MM X 1000 MM",
+        "precio": 8158.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-952-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio-64f30741d690e4f57417423215213497-1024-1024.jpg",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170708aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 12,7 MM X 1000 MM",
+        "precio": 7699.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-127-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio311-284e149953b33a57a816855562971871-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "238017771aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 11,1 MM X 1000 MM",
+        "precio": 8448.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-111-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio-3d86ef6ec4dcd17d0117295155618164-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170731aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 19,05 MM X 1000 MM",
+        "precio": 16363.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-1905-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio271-284e149953b33a57a816855562915896-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170762aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 30 MM X 1000 MM",
+        "precio": 42559.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-30-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio211-284e149953b33a57a816855562824714-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170750aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 25,4 MM X 1000 MM",
+        "precio": 30397.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-254-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio231-284e149953b33a57a816855562855317-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "238018760aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 6,35 MM X 1000 MM",
+        "precio": 4297.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-635-mm-x-1000-mm1/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio-c54abf1bb678f0b2cb17295157464264-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "238018395aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 7,94 MM X 1000 MM",
+        "precio": 4447.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-794-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio-061370a738792263c817295156675408-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170768aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 31,7 MM X 1000 MM",
+        "precio": 47004.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-317-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio201-284e149953b33a57a816855562812773-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170824aluminio",
+        "nombre": "BARRA REDONDA ALUMINIO 65 MM X 1000 MM",
+        "precio": 197530.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-redonda-aluminio-65-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-redonda-aluminio101-284e149953b33a57a816855561535671-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170891aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 19,05 MM X 1000MM",
+        "precio": 20877.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-1905-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio151-22376ea474440e208316855564975129-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170880aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 15,88 MM X 1000MM",
+        "precio": 14520.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-1588-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio171-22376ea474440e208316855564985584-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170923aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 44,5 MM X 1000MM",
+        "precio": 117053.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-445-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio81-22376ea474440e208316855564849114-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170903aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 25,4 MM X 1000MM",
+        "precio": 39216.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-254-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio131-22376ea474440e208316855564931592-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170898aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 22,2 MM X 1000MM",
+        "precio": 29024.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-222-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio141-22376ea474440e208316855564965481-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170866aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 12,7 MM X 1000MM",
+        "precio": 7953.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-127-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio191-22376ea474440e208316855565002143-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170913aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 31,7 MM X 1000MM",
+        "precio": 58347.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-317-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio111-22376ea474440e208316855564892980-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170920aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 38,1 MM X 1000MM",
+        "precio": 83657.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-381-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio91-22376ea474440e208316855564870810-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170950aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 80 MM X 1000MM",
+        "precio": 369883.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-80-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio21-22376ea474440e208316855564653907-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170945aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 76 MM X 1000MM",
+        "precio": 333874.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-76-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio31-22376ea474440e208316855564663858-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170936aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 65 MM X 1000MM",
+        "precio": 244265.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-65-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio51-22376ea474440e208316855564685849-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170930aluminio",
+        "nombre": "BARRA ALUMINIO CUADRADA 60 MM X 1000MM",
+        "precio": 208124.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-cuadrada-60-mm-x-1000mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-cuadrada-aluminio61-22376ea474440e208316855564705251-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171171003aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 25,4 MM X 1000 MM",
+        "precio": 32398.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-254-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio71-f2f342691dbb5db35a16855566458160-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170984aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 19,05 MM X 1000 MM",
+        "precio": 18280.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-1905-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio111-f2f342691dbb5db35a16855566550170-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170963aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 12,7 MM X 1000 MM",
+        "precio": 8057.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-127-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio151-f2f342691dbb5db35a16855566612835-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171171007aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 28,57 MM X 1000 MM",
+        "precio": 41035.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-2857-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio61-f2f342691dbb5db35a16855566428846-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170977aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 17,46 MM X 1000 MM",
+        "precio": 15356.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-1746-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio121-f2f342691dbb5db35a16855566558864-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170993aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 22,2MM X 1000 MM",
+        "precio": 24845.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-222mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio91-f2f342691dbb5db35a16855566508392-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171171022aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 38,1 MM X 1000 MM",
+        "precio": 72718.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-381-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio31-f2f342691dbb5db35a16855566373875-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171171018aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 34,9 MM X 1000 MM",
+        "precio": 61197.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-349-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio41-f2f342691dbb5db35a16855566408001-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170972aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 15,88 MM X 1000 MM",
+        "precio": 12818.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-1588-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio131-f2f342691dbb5db35a16855566585270-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171170970aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 14,29 MM X 1000 MM",
+        "precio": 10371.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-1429-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio141-f2f342691dbb5db35a16855566599750-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171171033aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 50,8 MM X 1000 MM",
+        "precio": 130304.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-508-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio2-f2f342691dbb5db35a16855566330941-1024-1024.webp",
+        "descripcion": ""
+    },
+    {
+        "sku": "171171028aluminio",
+        "nombre": "BARRA ALUMINIO HEXAGONAL 44,5 MM X 1000 MM",
+        "precio": 99205.0,
+        "tipo": "Aluminio",
+        "url": "https://www.alumina-argentina.com.ar/productos/barra-aluminio-hexagonal-445-mm-x-1000-mm/",
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/608/714/products/barra-hexagonal-aluminio11-f2f342691dbb5db35a16855566341936-1024-1024.webp",
+        "descripcion": ""
+    }
+]

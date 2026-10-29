@@ -1,81 +1,1447 @@
-*{
-    margin: 0;
-    padding: 0; 
-}
-
-body
+:root /* Colores de la página web */
 {
-    background: linear-gradient(270deg, #0b1524, #1a2636, #0b1524 );
+  --ColorFondo1: #0b1524; /* Esto lo uso como color en los bordes del fondo */
+  
+  --ColorFondo2: #1a2636; /* Esto lo uso como color en el centro del fondo */
+    
+  --ColorTexto: #ffffff; /* Color del texto */
+    
+  --ColorNav: #01081abc; /*Color del fondo del Nav y Footer */
+    
+  --ColorDesplegableNav: #00000070; /* Color del fondo del menu desplegable del nav */
+    
+  --ColorSecu: #D3D3D3; /* Utilizo como color Secundario del texto*/
+    
+  --ColorForm: #192a4b; /* Es para el fondo de los formularios */
+      
+  --ColorEspecial: #0D1230; /* Color para destacar donde esta el ussuario */
 }
 
-header
-{    
-    color: white;
-    position: fixed;
+
+
+/**********************************************************/
+/*                                                        */
+/*              Afecta a todas las páginas                */
+/*                                                        */
+/**********************************************************/
+
+* /* Clases por defaul cuando inicia la página */
+{
+    margin: 0; /* Cero Margen */
+    
+    padding: 0; /* Cero espaciado Interno */
+}
+
+html::-webkit-scrollbar /* Oculto la barra lateral de desplazamiento para que sea mas estetico */
+{
+    display: none; /* Oculto la barra lateral */
+}
+
+body /* Colores del body, osea, el fondo */
+{
+    background: linear-gradient(270deg, var(--ColorFondo1), var(--ColorFondo2) ,var(--ColorFondo1) ); /* Creo el fondo con un degrade para agrado visual */
+    
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* ---------------------------- Afecta al Nav ---------------------------- */
+
+header /* Contenedor del Navegador */
+{
+    /* Cosas de Nav stikie */
+    /*z-index: 99; Lo pone todo adelante */
+    /*position: fixed;  Hace que se pegue en la aprte superior del navegador*/
     width: 100%;
 }
 
+nav /* Contenido del nav */
+{
+    border-bottom: 2px solid rgba(43, 43, 43, 0.421); /* Le pongo un borde medio gris sutil */
+    
+    background-color: var(--ColorNav); /* Color de Fondo del nav, un poco mas oscuro para mas contraste */
+    
+     /* backdrop-filter: blur(5px);  Desenfoca todo lo que este abajo del nav */
+    
+    display: flex; /* Pongo todo en una linea */
+    
+    align-items: center; /* Centro todo en el eje Y */
+    
+    padding: 20px 30px; /* Espaciado interno, en la parte de abajo lo hace mas chico, en los costados mas grande */
+    
+}
 
-nav{
-    border-bottom: 2px solid rgba(43, 43, 43, 0.421);
-    background-color: #01081abc;
+#logo /* Logo de Mecanica */
+{
+    width: 68px;
+    height: 50px; /* Especifico el tamaño del logo */
+}
+
+.jaz /* Propiedades de los links en el navegador */
+{
+    margin-left: 90%; /* Lo separo del resto del logo */
+    
+    cursor: pointer; /* Muestro Interactividad con el cursor */
+}
+
+
+/* --------- Menu Desplegable ----------- */
+
+.perfil-popup /* Estilos del menú desplegable del perfil */
+{
+    position: absolute; /* Se superpone sobre todo */
+
+    top: 50px; /* Debajo del nav */
+
+    right: 20px; /* Pegado a la derecha */
+
+    background: var(--ColorDesplegableNav); /* Fondo del menu desplegable */
+
+    border-radius: 12px; /* Bordes redondeados */
+    
+    backdrop-filter: blur(5px); /* Hace que lo que este abajo se difumine */
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Sombra */
+
+    width: 170px; /* Ancho */
+
+    padding: 10px; /* Espacio interno */
+
+    font-size: 16px; /* Tamaño del texto */
+
+    display: flex; /* Alinea en fila */
+
+    flex-direction: column; /* Lista vertical */
+
+    z-index: 1000; /* Profundidad sobre otros elementos */
+}
+
+.perfil-popup a /* Enlaces del menú desplegable */
+{
+    display:flex; /* Pongo todo en un linea */
+
+    font-weight: bold; /* Lo pongo en negrita */
+
+    padding: 5px; /* Hitbox */
+
+    align-items: center; /* Centra verticalmente */
+
+    margin-top:3% ; /* Pego un poco el contenido */
+
+    color: var(--ColorTexto); /* Color del texto */
+
+    text-decoration: none; /* Sin subrayado */
+
+    border-radius: 8px; /* Bordes redondeados */
+
+    transition: background 0.2s; /* Transición del fondo */
+}
+
+.perfil-popup a:hover /* Comportamiento al pasar el mouse sobre los enlaces */
+{
+    background: var(--ColorFondo2); /* Fondo cuando pasa el mouse por encima */
+}
+
+.perfil-popup img /* Imagen representatita de los items del menu desplegable */
+{
+    margin-right:4%; /* Lo separo del texto */
+}
+
+.oculto /* Oculto por defecto */
+{
+    display: none; /* No se muestra */
+}
+
+.especial /* Esto lo uso para resaltar la pagina en la que esta parado el usuario */
+{
+    background-color: var(--ColorFondo2); /* Color de fondo de otro color para resaltar todo */
+}
+
+/* ---------------------------- Afecta al Footer ---------------------------- */
+
+footer /* Contenedor del footer */
+{
+    background-color: var(--ColorNav); /* Color del fondo del footer */
+    
+    padding: 1% 0% 1% 0%; /* Espaciado Interno */
+    
+    text-align: center; /* Pongo todo en el medio */
+    
+    color: var(--ColorSecu); /* Color del texto */
+    
+    margin-top: auto;
+    
+    position: sticky;
+  
+    top: 100vh;
+}
+
+h1 /* Titulos de las páginas */
+{
+    margin-top: 2%; /* Menos espacio entre el nav y el título */
+    
+    color: var(--ColorTexto) /* Establezco el color del titulo */
+}
+
+
+
+/*****************************************/
+/*                                       */
+/*              Afecta al Index          */
+/*                                       */
+/*****************************************/
+
+.ContenedorIndex /* Es lo que uso para el contenedor del Index */
+{
+    display: flex; /* Lo pongo todo en una linea */
+    
+    justify-content: center; /* Alineo todo en el eje Y */
+    
+    flex: 1;
+}
+
+.seccionMaterial /* Esto es la sección de la madera */
+{   
+    width: 25%;
+    height: 410px; /* Altura más compacta para evitar espacios innecesarios */
+    
+    overflow: hidden; /* Recorto lo que salga del div */
+    
+    border-radius: 5%; /* Redondeo los bordes */
+    
+    position: relative; /* Hago que se pueda mover libremente */
+
+    transition: all 0.3s; /* Le agrego una transicion */
+    
+}
+
+.seccionItem /* Esto los uso para las imagenes de las secciones */
+{
+    overflow: hidden; /* Hago que el resto de la imagen que sobresale se recorte */
+    
+    border-radius: 5%; /* Redondeo los bordes */
+    
+    position: relative; /* Hago que se pueda mover libremente */
+    
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Le pongo una transicion */
+    
+}
+
+.seccionItem img /* Esto lo uso para las imagenes de las secciones */
+{
+    display: block; /* Hago que ocupe todo su sector */
+    
+    object-fit: cover; /* Hago que llene todo el contenido */
+    
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Le pongo transicion */
+}
+
+.seccionItem img
+{
+    transform: scale(1.05); /* Aumento la escala de la imagen un poco */
+}
+
+.cartaMaterial:hover  /* Esto los uso para las imagenes de las secciones */
+{
+    transform: scale(1.05); /* Aumento la escala de la imagen un poco */
+    
+    background-color: var(--ColorDesplegableNav); /* Establezco el color del fondo de la descripcion */
+    
+    opacity: 0.85; /* La vuelvo transparente para que se vea la descripcion */
+}
+
+.descripcionMaterial /* Esto lo uso para la descripcion de las secciones */
+{
+    position: absolute; /* Hago que este siempre en un mismo lugar */
+    
+    inset: 0; /* Hago que se ponga en medio de las secciones */
+    
+    display: flex; /* Pongo todo en una linea */
+    
+    flex-direction: column; /* Divido en columnas el body */
+    
+    justify-content: center;
+    align-items: center; /* Pongo todo en el eje Y y X */
+    
+    gap: 18px;
+    padding: 32px;  /* Espaciado interno */
+    
+    text-align: center; /* Lo pongo en medio */
+    
+    background: rgba(5, 10, 20, 0.473); /* Color azulado/negro transparente para dar un efecto de que sale */
+    
+    backdrop-filter: blur(2px); /* Desenfoca lo que esta abajo de la descripocion */
+    
+    opacity: 0; /* Inicia invisible */
+    
+    transition: opacity 0.3s ease; /* Le pongo una descripcion */
+    
+    z-index: 2; /* Lo traigo adelante */
+    
+    text-decoration:none; /* Le saco las propiedades iniciales de los a */
+}
+
+.descripcionMaterial h2 /* Titulo de la Seccion */
+{
+    font-size: 200%; /* Especifico el tamaño de la fuente */
+    
+    color: var(--ColorTexto); /* Especifico el color del texto */
+}
+
+.descripcionMaterial p /* Esto es para la breve descripcion de las secciones */
+{
+    font-size: 100%; /* Especifico el tamaño de la letra */
+    
+    line-height: 1.6; /* Hago que las letras esten mas separados una de otras */
+    
+    color: var(--ColorSecu); /* Lo pongo de color gris para que resalte */
+}
+
+.cartaMaterial:hover .descripcionMaterial /* Esto lo uso para el comportamiento de las tarjetas cuando pasas por encima */
+{
+    opacity: 0.9; /* Muestro una breve descripcion */
+}
+
+
+
+/*************************************************************/
+/*                                                           */
+/*              Afecta a Registrate e Inicio Sesion          */
+/*                                                           */
+/*************************************************************/
+
+.contenedorRegis /* Contenedor de Inicio de Sesion y Registro */
+{
+    margin: 0 auto; 
+    text-align: center; /* Lo centro */
+    
+    font-size: 150%; /* Especifico el tamaño de la fuente */
+    
+    background-color: var(--ColorNav); /* Le pongo color de fondo */
+    
+    padding: 20px; /* Espaciado interno */
+    
+    border-radius: 3%; /* Redondeo los bordes */
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Le pongo sombra para efecto de profundidad */
+    
+    width: 100%;/* Especifico el tamaño del contenedor */
+    
+    max-width: 400px; /* Especifico el tamaño del contenedor */
+    
+    margin-top: 2.5%; /* Separación más compacta del nav */
+    
+    margin-bottom: 2.5%; /* Separación más compacta del footer */
+    
+}
+
+.contenedorRegis h1 /* Esto lo uso para los titulos de los formularios */
+{
+    font-size: 165%; /* Establezco el alto */
+    
+    margin-bottom:5%;
+   	margin-top:0%; /* Establezco los margenes del titulo */
+}
+
+label /* Esto lo uso para las etiquetas usadas en los formularios */
+{
+    color: var(--ColorTexto); /* Especifico el color de los lables */
+}
+
+input /* Esto lo uso para los inputs */
+{
+    width: 90%; /* Especifico el tamaño de los campos */
+    max-width: 100%; /* Evita que el input se salga de su contenedor */
+    
+    padding: 10px; /* Espaciado interno */
+    
+    margin-bottom: 15px; /* Lo separo del otro titulo */
+    
+    border: 1px solid #ccc; /* Le pongo un pequeño borde */
+    
+    border-radius: 4px; /* Redondeo los bordes */
+    
+    font-size: 60%; /* Especifico el tamaño de la fuente */
+}
+
+.jazTQM /* Hace que el imput se acerque a el link de recuperar contra */
+{
+    margin-bottom: 0px; /* Lo junto con el link */
+}
+
+button /* Esto lo uso para el boton de Enviar en los formularios */
+{
+    background-color: var(--ColorFondo2); /* Fondo del button */
+    
+    color: var(--ColorTexto); /* Color de la letra */
+    
+    border: none; /* Saco los bordes */
+    
+    padding: 10px 20px; /* Espaciado interno */
+    
+    border-radius: 4px; /* redondeo los bordes */
+    
+    font-size: 70%; /* Especifico el tamaño de la fuente */
+    
+    cursor: pointer; /* Indico Interactividad con el cursor */
+}
+
+.inicio /* Esto son las propiedades del link de recuperar contraseña */
+{
+    font-size:70%; /* Establezco el tamaño de la fuente */
+    
+    margin-left: 50%; /* Lo pongo en la izquierda */
+    
+    text-decoration:none; /* Saco las propiedades iniciales del a */
+    
+    color:var(--ColorSecu); /* Establezco el color del texto */
+}
+
+.inicio2 /* Esto son las propiedades del link de Iniciar Sesion */
+{
+    font-size:70%; /* Establezco el tamaño de la fuente */
+    
+    margin-left: 60%; /* Lo pongo en la izquierda */
+    
+    text-decoration:none; /* Saco las propiedades iniciales del a */
+    
+    color:var(--ColorSecu); /* Establezco el color del texto */
+}
+
+/*******************************************/
+/*                                         */
+/*              Afecta a Mi Cuenta         */
+/*                                         */
+/*******************************************/
+
+.nose /* Esto lo uso para los parrafos de la pagina de mi cuenta */
+{
+    color:white; /* Pongo color blanco al texto */
+    
+    margin-bottom: 3%; /* Separacion entre los párrafos */
+    
+    margin-left: 4%; /* Separo en el margen izquierdo */
+}
+
+.contenedorCuenta /* Contenedor de la seccion de mi cuenta */
+{
+    margin: 0 auto; 
+    text-align: center; /* Lo centro */
+    
+    font-size: 150%; /* Especifico el tamaño de la fuente */
+    
+    background-color: var(--ColorNav); /* Le pongo color de fondo */
+    
+    padding: 20px; /* Espaciado interno */
+    
+    border-radius: 3%; /* Redondeo los bordes */
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Le pongo sombra para efecto de profundidad */
+    
+    width: 100%;/* Especifico el tamaño del contenedor */
+    
+    max-width: 550px; /* Especifico el tamaño del contenedor */
+    
+    margin-top: 4%; /* Separación más compacta del nav */
+    
+    margin-bottom: 4%; /* Separación más compacta del footer */
+}
+
+.title /* Lo uso en el titulo de la seccion de mi cuenta */
+{
+    margin-top: 0px; /* Saco el margen superior por defecto */
+    
+    margin-bottom: 2%; /* Separo del resto del contenido */
+}
+
+.linkCambio /* Esto lo uso para el link de cambio de contraseña */
+{
+    color: var(--ColorSecu); /* Pongo color blanco */
+    
+    text-decoration: none; /* Le saco el comportamiento por defecto */
+    
+    font-size: 80% ; /* Especifico el tamaño de la fuente */
+}
+
+
+/**********************************************************/
+/*                                                        */
+/*              DISEÑO RESPONSIVE                         */
+/*                                                        */
+/*  Estas reglas hacen que la página se adapte a          */
+/*  computadoras, tablets y celulares.                    */
+/*                                                        */
+/**********************************************************/
+
+/* ---------------------------- Pantallas medianas ---------------------------- */
+
+@media (max-width: 900px)
+{
+    nav
+    {
+        padding: 15px 20px; /* Reduzco el espacio del navegador */
+    }
+
+    .ContenedorIndex
+    {
+        padding: 10px; /* Evito que las tarjetas toquen los bordes */
+    }
+
+    .seccionMaterial
+    {
+        width: 44%; /* En tablets entran dos tarjetas por fila */
+        min-width: 260px; /* Mantengo un tamaño mínimo razonable */
+        margin: 2%; /* Reduzco la separación */
+    }
+
+    .contenedorRegis,
+    .contenedorCuenta
+    {
+        margin-top: 3%; /* Reduzco el espacio superior */
+        margin-bottom: 3%; /* Reduzco el espacio inferior */
+    }
+}
+
+
+/* ---------------------------- Celulares ---------------------------- */
+
+@media (max-width: 600px)
+{
+    nav
+    {
+        padding: 12px 15px; /* Hago el navegador más compacto */
+    }
+
+    #logo
+    {
+        width: 55px; /* Reduzco el logo */
+        height: auto; /* Mantengo la proporción de la imagen */
+    }
+
+    .jaz
+    {
+        margin-left: auto; /* Lo mantiene a la derecha sin importar el ancho */
+    }
+
+    .perfil-popup
+    {
+        top: 60px; /* Ajusto la posición del menú al nav más pequeño */
+        right: 10px; /* Lo acerco un poco al borde */
+        width: 160px; /* Hago el menú un poco más compacto */
+        max-width: calc(100vw - 20px); /* Nunca supera el ancho de la pantalla */
+    }
+
+    h1
+    {
+        font-size: 1.8rem; /* Reduzco los títulos */
+        margin-top: 30px; /* Reduzco la separación del nav */
+        padding: 0 15px; /* Evito que el texto toque los bordes */
+    }
+
+    .ContenedorIndex
+    {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        padding: 5px 15px; /* Dejo un espacio pequeño a los costados */
+        flex-direction: column; /* Una tarjeta debajo de otra */
+        align-items: center; /* Centro las tarjetas */
+    }
+
+    .seccionMaterial
+    {
+        width: 100%; /* La tarjeta ocupa el ancho disponible */
+        max-width: 400px; /* Evita que sea enorme en celulares grandes */
+        min-width: 0; /* Permite que se adapte a celulares pequeños */
+        height: 260px; /* Reduzco la altura para celulares */
+        margin: 6px 0; /* Separación vertical más compacta */
+    }
+
+    .descripcionMaterial
+    {
+        padding: 20px; /* Reduzco el espacio interno */
+        gap: 12px; /* Reduzco la separación entre elementos */
+    }
+
+    .descripcionMaterial h2
+    {
+        font-size: 1.6rem; /* Tamaño cómodo para celular */
+    }
+
+    .descripcionMaterial p
+    {
+        font-size: 1rem; /* Evito que el texto sea demasiado grande */
+        line-height: 1.5; /* Mejor lectura */
+    }
+
+    /* ---------------------------- Formularios ---------------------------- */
+
+    .contenedorRegis,
+    .contenedorCuenta
+    {
+        width: calc(100% - 30px); /* Deja 15px libres a cada lado */
+        max-width: 400px; /* Evita que crezca demasiado */
+        padding: 20px 15px; /* Ajusto el espacio interno */
+        margin-top: 20px; /* Separación superior compacta */
+        margin-bottom: 20px; /* Separación inferior compacta */
+    }
+
+    .contenedorRegis h1
+    {
+        font-size: 1.7rem; /* Título del formulario más pequeño */
+        padding: 0; /* Evito padding adicional */
+    }
+
+    input
+    {
+        width: 100%; /* El input aprovecha el ancho disponible */
+        box-sizing: border-box; /* Incluye padding y borde dentro del ancho */
+    }
+
+    button
+    {
+        max-width: 100%; /* Evita que el botón se salga */
+    }
+
+    .inicio,
+    .inicio2
+    {
+        display: block; /* Permite controlar correctamente el enlace */
+        margin-left: 0; /* Elimina el margen porcentual */
+        text-align: right; /* Lo mantiene alineado a la derecha */
+    }
+
+    .nose
+    {
+        margin-left: 15px; /* Evita un margen porcentual excesivo */
+        margin-right: 15px; /* Deja espacio en el otro lado */
+    }
+
+    .linkCambio
+    {
+        font-size: 75%; /* Ajusto el tamaño para celular */
+    }
+}
+
+
+/* ---------------------------- Celulares muy pequeños ---------------------------- */
+
+@media (max-width: 380px)
+{
+    nav
+    {
+        padding: 10px; /* Reduzco aún más el nav */
+    }
+
+    #logo
+    {
+        width: 48px; /* Logo más pequeño */
+    }
+
+    .seccionMaterial
+    {
+        height: 240px; /* Tarjetas más bajas y compactas */
+    }
+
+    .descripcionMaterial
+    {
+        padding: 15px; /* Menos espacio interno */
+    }
+
+    .descripcionMaterial h2
+    {
+        font-size: 1.4rem; /* Título más pequeño */
+    }
+
+    .descripcionMaterial p
+    {
+        font-size: 0.9rem; /* Texto más pequeño */
+    }
+
+    .contenedorRegis,
+    .contenedorCuenta
+    {
+        width: calc(100% - 20px); /* Deja 10px a cada lado */
+        padding: 15px 10px; /* Reduce el espacio interno */
+    }
+}
+
+
+/**********************************************************/
+/*                                                        */
+/*        AJUSTE FINAL DE ESPACIADO                       */
+/*                                                        */
+/*  Evita que las tarjetas y formularios queden demasiado */
+/*  separados en pantallas grandes.                       */
+/*                                                        */
+/**********************************************************/
+
+@media (min-width: 901px)
+{
+    .ContenedorIndex
+    {
+        gap: 10px; /* Separación pequeña y uniforme */
+        padding: 10px 20px; /* Evita espacio excesivo en los bordes */
+    }
+
+    .seccionMaterial
+    {
+        margin: 1%; /* Mucho menos espacio alrededor de cada tarjeta */
+    }
+
+    .contenedorRegis
+    {
+        margin-top: 2%; /* Reduce el espacio superior */
+        margin-bottom: 2%; /* Reduce el espacio inferior */
+    }
+
+    .contenedorCuenta
+    {
+        margin-top: 3%; /* Reduce el espacio superior */
+        margin-bottom: 3%; /* Reduce el espacio inferior */
+    }
+}
+
+#fila{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+.macro-tarjeta{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+}
+.tarjeta{
+    border-radius: 25px;
+    padding:25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin:25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: #10243D;
+    width: 70%;
+    border: 2px solid #7E8790;
+    transition:     all         0.2s            linear           0s;
+    cursor: pointer;
+}
+.seleccionada{
+    border: 2px solid #1E90FF;
+    transform: scale(0.9);
+    transition:     all         0.2s            linear           0s;
+}
+.tarjeta img{
+    border-radius: 3%;
+    width: 100%;
+    height: 80%;
+}
+.tarjeta h2{
+    text-align: center;
+    color: #FFFFFF;
+}
+.tarjeta p{
+    color: var(--ColorTexto);
+}
+#sku{
+    display: none;
+}
+/* =====================================================
+   MODAL
+   ===================================================== */
+
+#modal {
+    display: none;
+}
+
+#modal.activo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 640px;
+    min-height: 300px;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 15px;
+
+    /* Colores originales */
+    background-color: var(--ColorNav);
+    color: var(--ColorTexto);
+
+    border: 2px solid #1E90FF;
+    border-radius: 25px;
+
+    z-index: 2000;
+
+    display: block;
+
     backdrop-filter: blur(5px);
+}
+
+
+/* =====================================================
+   TABLA
+   ===================================================== */
+
+#modal table {
+    width: 100%;
+    border-collapse: collapse;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+/* Todas las celdas */
+
+#modal table th {
+    height: 36px;
+    padding: 0;
+
+    color: var(--ColorTexto);
+    font-weight: normal;
+
+    vertical-align: middle;
+}
+
+
+/* =====================================================
+   COLUMNA IZQUIERDA
+   ===================================================== */
+
+#modal table th:first-child {
+    width: 50%;
+
+    text-align: center;
+
+    border-left: none;
+}
+
+
+/* =====================================================
+   COLUMNA DERECHA
+   ===================================================== */
+
+#modal table th:last-child {
+    width: 50%;
+
+    /* El texto queda centrado en esta mitad */
+    text-align: center;
+
+    /* Este es el "|" de tu diseño */
+    border-left: 2px solid var(--ColorSecu);
+
+    padding-left: 12px;
+}
+
+
+/* =====================================================
+   PRECIO TOTAL
+   ===================================================== */
+
+#modal table tr:last-child th {
+    border-top: 2px solid var(--ColorSecu);
+
+    padding-top: 8px;
+    height: 42px;
+}
+
+
+/* El precio total no tiene "|" */
+
+#modal table tr:last-child th:last-child {
+    border-left: none;
+}
+
+
+/* =====================================================
+   BOTONES + Y -
+   ===================================================== */
+
+#modal #menos,
+#modal #mas {
+    background: transparent;
+
+    color: var(--ColorTexto);
+
+    border: none;
+    border-radius: 0;
+
+    padding: 0 4px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+#modal #menos {
+    margin-left: 8px;
+}
+
+#modal #mas {
+    margin-left: 2px;
+}
+
+
+/* =====================================================
+   BOTÓN ACEPTAR
+   ===================================================== */
+
+#modal #aceptar {
+    display: block;
+
+    width: 270px;
+    height: 44px;
+
+    margin: 40px auto 0;
+    padding: 0;
+
+    background-color: var(--ColorFondo2);
+    color: var(--ColorTexto);
+
+    border: 2px solid var(--ColorSecu);
+    border-radius: 4px;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+#modal #aceptar:hover {
+    background-color: var(--ColorEspecial);
+}
+
+
+/* =====================================================
+   BOTÓN X
+   ===================================================== */
+
+#modal #cerrar {
+    position: absolute;
+
+    top: 7px;
+    right: 13px;
+
+    width: auto;
+    height: auto;
+
+    padding: 0;
+
+    background: transparent;
+    color: var(--ColorTexto);
+
+    border: none;
+    border-radius: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+#modal #cerrar:hover {
+    color: #1E90FF;
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   MODAL EN CELULARES
+   ===================================================== */
+
+@media (max-width: 600px) {
+
+    #modal.activo {
+        width: calc(100vw - 30px);
+        min-height: 0;
+
+        padding: 12px;
+
+        border-width: 2px;
+    }
+
+    #modal table {
+        font-size: 15px;
+    }
+
+    #modal table th {
+        height: 32px;
+    }
+
+    #modal #aceptar {
+        width: 75%;
+        max-width: 270px;
+
+        height: 42px;
+
+        margin-top: 30px;
+    }
+
+    #modal #cerrar {
+        top: 6px;
+        right: 9px;
+    }
+}
+/* Tarjetas de materiales: ajuste exclusivo para celular */
+@media (max-width: 600px) {
+    #fila {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        padding: 16px 14px 30px;
+    }
+
+    #fila, #fila * { box-sizing: border-box; }
+
+    .tarjeta {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .tarjeta img {
+        display: block;
+        width: 100%;
+        height: 82px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .tarjeta h2 { margin-top: 7px; font-size: .98rem; }
+    .tarjeta p { margin-top: 4px; text-align: center; font-size: .7rem; }
+}
+
+/* Descripción siempre visible en celulares */
+@media (max-width: 600px) { .descripcionMaterial { opacity: 1; visibility: visible; pointer-events: auto; } }
+
+
+/* Estilos de materiales integrados */
+body{
+    background: linear-gradient(270deg, var(--ColorFondo1), var(--ColorFondo2), var(--ColorFondo1));
+}
+#fila{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+.tarjeta{
+    border-radius: 25px;
+    padding:25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin:25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: var(--ColorNav);
+    width: 70%;
+    border: 2px solid var(--ColorSecu);
+    transition:     all         0.2s            linear           0s;
+    cursor: pointer;
+}
+.seleccionada{
+    border: 2px solid #1E90FF;
+    transform: scale(0.9);
+    transition:     all         0.2s            linear           0s;
+}
+.tarjeta img{
+    border-radius: 3%;
+    width: 100%;
+    height: 80%;
+}
+.tarjeta h2{
+    text-align: center;
+    color: var(--ColorTexto);
+}
+.tarjeta p{
+    color: var(--ColorSecu);
+}
+
+.nav-back { color: var(--ColorTexto); font-size: 14px; text-decoration: none; }
+.nav-back:hover { color: var(--blue-dark); text-decoration: underline; }
+
+/*.tarjeta{
+    width: 25%;
+    height: 50%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    background-color: red;
+    display: inline-block;
+}*/
+
+/* Ajustes exclusivos para celular */
+@media (max-width: 600px) {
+    #fila {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        padding: 16px 14px 30px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    .tarjeta img {
+        display: block;
+        width: 100%;
+        height: 82px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .tarjeta h2 { margin-top: 7px; font-size: .98rem; }
+    .tarjeta p { margin-top: 4px; text-align: center; font-size: .7rem; }
+}
+@media (max-width: 600px) { .fila, .fila * { box-sizing: border-box; } }
+
+/* Portada: tarjetas más compactas y separadas en celular */
+@media (max-width: 600px) { .ContenedorIndex { padding: 5px 20px 30px; } .seccionMaterial { width: 88%; max-width: 350px; height: 220px; margin: 14px 0; } .descripcionMaterial { padding: 16px; gap: 8px; } .descripcionMaterial h2 { font-size: 1.4rem; } .descripcionMaterial p { font-size: .88rem; line-height: 1.4; } }
+
+/* Nav y footer a todo el ancho en celular */
+@media (max-width: 600px) { header, footer { width: 100vw; max-width: 100vw; margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw); box-sizing: border-box; } nav { width: 100%; box-sizing: border-box; } }
+
+
+/* ---------------------------- Carrito en el Nav ---------------------------- */
+
+.carrito-nav
+{
+    margin-left: auto;
+    margin-right: 25px;
     display: flex;
     align-items: center;
-    padding: 20px 30px;
+    gap: 7px;
+    color: var(--ColorTexto);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.carrito-nav:hover
+{
+    opacity: 0.85;
+    transform: scale(1.04);
+}
+
+.carrito-icon
+{
+    font-size: 26px;
+    line-height: 1;
+}
+
+.jaz
+{
+    margin-left: 0;
+}
+
+
+/* --- Pequeño pulido del modal de materiales --- */
+#modal.activo {
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+#modal #menos,
+#modal #mas {
+    width: 34px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(211, 211, 211, 0.45);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--ColorTexto);
     font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    transition: background-color .15s ease, border-color .15s ease;
 }
 
-#logo{
-    width: 68px;
-    height: 50px;
-
-    margin-right: auto;
+#modal #menos:hover,
+#modal #mas:hover {
+    background: rgba(30, 144, 255, 0.16);
+    border-color: #1E90FF;
 }
 
-.index{
+#modal #menos:focus-visible,
+#modal #mas:focus-visible,
+#modal #aceptar:focus-visible,
+#modal #cerrar:focus-visible {
+    outline: 2px solid #1E90FF;
+    outline-offset: 2px;
+}
+
+#modal #cantidad {
+    display: inline-flex;
+    min-width: 34px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#modal .selector-cantidad {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* En la fila de cantidad, el selector queda en la columna derecha. */
+#modal table tr:nth-child(4) th:first-child {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #modal .selector-cantidad {
+        gap: 6px;
+    }
+
+    #modal #menos,
+    #modal #mas {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* =====================================================
+   TARJETAS DE MATERIALES - TAMAÑO UNIFORME
+   ===================================================== */
+
+#fila {
+    align-items: stretch;
+}
+
+.tarjeta {
+    box-sizing: border-box;
+    width: calc(100% - 50px);
+    height: 445px;
+    min-height: 445px;
+    margin: 25px;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.tarjeta img {
+    display: block;
+    flex: 0 0 280px;
+    width: 100%;
+    height: 280px;
+    min-height: 280px;
+    object-fit: contain;
+    border-radius: 3%;
+}
+
+.tarjeta h2 {
+    flex: 0 0 78px;
+    height: 78px;
+    min-height: 78px;
+    margin: 7px 0 0;
+    padding: 0;
+    line-height: 1.15;
+    text-align: center;
+    color: var(--ColorTexto);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+}
+
+.tarjeta p {
+    flex: 0 0 36px;
+    height: 36px;
+    min-height: 36px;
+    margin: 4px 0 0;
+    padding: 0;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--ColorSecu);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+@media (max-width: 600px) {
+    #fila {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        padding: 16px 14px 30px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        height: 250px;
+        min-height: 250px;
+        margin: 0;
+        padding: 10px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    .tarjeta img {
+        flex: 0 0 82px;
+        width: 100%;
+        height: 82px;
+        min-height: 82px;
+        object-fit: contain;
+        border-radius: 8px;
+    }
+
+    .tarjeta h2 {
+        flex: 0 0 62px;
+        height: 62px;
+        min-height: 62px;
+        margin-top: 7px;
+        font-size: .98rem;
+        line-height: 1.15;
+    }
+
+    .tarjeta p {
+        flex: 0 0 32px;
+        height: 32px;
+        min-height: 32px;
+        margin-top: 4px;
+        font-size: .7rem;
+        line-height: 1.2;
+    }
+}
+
+
+/* ---------------------------- Botón volver arriba ---------------------------- */
+
+.btn-volver-arriba
+{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--ColorEspecial);
+    color: var(--ColorTexto);
+
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-volver-arriba:hover
+{
+    transform: translateY(-3px);
+    background-color: var(--ColorFondo2);
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+/* ---------------------------- Botón volver en el Nav ---------------------------- */
+nav {
+    position: relative;
+}
+
+.nav-back-button {
+    width: 42px;
+    height: 42px;
+    margin-right: 18px;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    background: transparent;
+    color: var(--ColorTexto);
+    font-size: 28px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.nav-back-button:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    transform: translateX(-2px);
+}
+
+.nav-back-button:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+    .nav-back-button {
+        width: 38px;
+        height: 38px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+}
+.moristemadrid
+{
     text-decoration: none;
     color: white;
-    margin-left: 40px;
+    background-color: var(--ColorFondo2);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
 }
 
-footer{
-    background-color: #01081abc;
-    padding: 5%;
-    margin-top: 50%;
-    text-align: center;
-    color: rgb(123, 123, 123); 
-}
-
-.contenedor
+#cart-products p
 {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 20px;
-    background-color: #192a4b;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
+    margin-right:12px
 }
 
-input, select {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-button
+footer a
 {
-    background-color: #1b2053;
+
+    color: #FF8069;
+}
+
+.nosotros
+{
     color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: var(--ColorDesplegableNav);
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 5%;
+    border-radius: 15px;
 }
